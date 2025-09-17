@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Scout Upcoming Events</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="brand">Scout Portal</div>
+      <nav class="nav">
+        <a href="#/dashboard">Dashboard</a>
+        <a href="#/events">Events</a>
+        <a href="#/smc-bor">SMC/BOR</a>
+        <a href="#/adults">Adult Leaders</a>
+        <a href="#/resources">Resources</a>
+        <a href="#/admin" class="admin">Admin</a>
+      </nav>
+      <div class="user-select">
+        <label for="currentUser">Current User:</label>
+        <select id="currentUser"></select>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="content" id="app"></section>
+      <aside class="sidebar" id="sidebar"></aside>
+    </main>
+
+    <footer class="app-footer">Prototype — data stored in your browser</footer>
+
+    <script src="./gear.js"></script>
+    <script src="./app.js"></script>
+  </body>
+  </html>
+
